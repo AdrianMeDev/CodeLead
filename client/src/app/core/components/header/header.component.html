@@ -1,0 +1,42 @@
+<nav
+  class="nav-section p-5 dark:bg-background1 dark:text-gray-50 bg-white text-black"
+>
+  <div class="nav-container m-auto flex justify-between items-center">
+    <div class="logo-container">
+      <h1 class="logo dark:text-gray-50 text-black font-bold">CodeLead</h1>
+    </div>
+    <ul class="flex flex-row gap-2 justify-center items-center">
+      <li>
+        <button (click)="toggleTheme()">
+          @if (isDarkMode()) {
+          <span id="theme-toggle-light-icon"> 🌞 </span>
+          } @else {
+          <span id="theme-toggle-dark-icon"> 🌜 </span>
+          }
+        </button>
+      </li>
+      <li>
+        <a href="#" class="decoration-none dark:text-gray-50 text-black"
+          >Home</a
+        >
+      </li>
+      <li>
+        <a href="#" class="decoration-none dark:text-gray-50 text-black"
+          >About</a
+        >
+      </li>
+      <li>
+        <a href="#" class="decoration-none dark:text-gray-50 text-black"
+          >Contact</a
+        >
+      </li>
+      <li>
+        <button
+          class="dark:bg-gray-50 dark:text-black bg-black text-white px-2 rounded"
+        >
+          Login
+        </button>
+      </li>
+    </ul>
+  </div>
+</nav>
