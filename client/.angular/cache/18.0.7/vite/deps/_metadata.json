@@ -1,34 +1,43 @@
 {
-  "hash": "a0e51b54",
-  "configHash": "61b40e87",
-  "lockfileHash": "077f23e5",
-  "browserHash": "2fc1fe81",
+  "hash": "18198b28",
+  "configHash": "701a635b",
+  "lockfileHash": "9e4e9c34",
+  "browserHash": "ff0a5327",
   "optimized": {
     "@angular/core": {
       "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "3c95e9b8",
+      "fileHash": "c076bdbd",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "a977a0d2",
+      "fileHash": "e724c00a",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "ab32168b",
+      "fileHash": "e0785f45",
+      "needsInterop": false
+    },
+    "flowbite": {
+      "src": "../../../../../node_modules/flowbite/lib/esm/index.js",
+      "file": "flowbite.js",
+      "fileHash": "40c05642",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-2HVGG22W": {
-      "file": "chunk-2HVGG22W.js"
+    "chunk-WVC5JVER": {
+      "file": "chunk-WVC5JVER.js"
     },
-    "chunk-KR6GKBAP": {
-      "file": "chunk-KR6GKBAP.js"
+    "chunk-CG5TU4TF": {
+      "file": "chunk-CG5TU4TF.js"
+    },
+    "chunk-J4B6MK7R": {
+      "file": "chunk-J4B6MK7R.js"
     }
   }
 }
