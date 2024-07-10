@@ -186,3 +186,4 @@ GitHub.sublime-settings
 .history
 
 venv
+.angular/cached/

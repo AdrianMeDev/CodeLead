@@ -13,7 +13,7 @@ export class HeaderComponent {
 
   constructor() {}
 
-  toggleTheme(): void {
+  toggleTheme(): void {2
     this.themeService.toggleTheme();
   }
 
