@@ -186,4 +186,7 @@ GitHub.sublime-settings
 .history
 
 venv
-.angular/cached/
+./client/.angular/cached/
+./client/.angular/
+.angular
+.vscode
